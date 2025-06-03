@@ -1,0 +1,44 @@
+{
+  "name": "matt-wilcox-portfolio-site",
+  "description": "Matt Wilcox's personal portfolio site, showcasing projects, blog posts, and more.",
+  "author": "Matt Wilcox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "kill-node": "cmd \"/C TASKKILL /IM node.exe /F\"",
+    "generate-3rd-party-md": "npx license-checker --json > licenses.json && node ./scripts/generate-3rd-party-license-report.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "lucide-react": "^0.475.0",
+    "next": "^15.2.4",
+    "next-auth": "^4.24.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20.17.32",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/readline-sync": "^1.4.8",
+    "@types/shelljs": "^0.8.15",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "eslint-config-prettier": "^10.0.1",
+    "license-checker": "^25.0.1",
+    "postcss": "^8",
+    "prettier": "^3.5.1",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
