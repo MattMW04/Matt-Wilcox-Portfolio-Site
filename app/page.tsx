@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: "Matt Wilcox's Portfolio",
+  title: "Matt Wilcox's Portfolio | Home",
   description: "Showcasing projects, blog posts, and more.",
   openGraph: {
     title: "Matt Wilcox's Portfolio",
@@ -18,7 +18,7 @@ export const metadata = {
 };
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24 bg-blackBackground text-whiteText">
+    <div className="flex min-h-screen flex-col items-center justify-between p-2 bg-blackBackground text-whiteText">
       <h1 className="bg-redHeader w-full p-4 text-center">
         Hi there, I`&apos`m Matt Wilcox!
       </h1>
