@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ROOT & BODY */
-:root {
-  --fc-list-event-hover-bg-color: #8b0000 !important;
-  --fc-now-indicator-color: black !important;
-}
 body {
   color: var(--foreground);
   background: var(--background);

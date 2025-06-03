@@ -14,6 +14,7 @@
     "generate-3rd-party-md": "npx license-checker --json > licenses.json && node ./scripts/generate-3rd-party-license-report.js"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "dotenv": "^16.4.7",
     "fs": "^0.0.1-security",
     "lucide-react": "^0.475.0",
@@ -21,6 +22,7 @@
     "next-auth": "^4.24.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-toastify": "^11.0.5",
     "readline-sync": "^1.4.10",
     "shelljs": "^0.8.5"
   },
