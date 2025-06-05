@@ -11,7 +11,7 @@ interface ProjectProps {
 export default function Project({ key, projectNumber, projectName }: ProjectProps) {
     return (
         <Card
-            key={key}
+            key={key ?? `project-${projectNumber}`}
             className="group bg-gray-900/50 border-gray-700 backdrop-blur-sm hover:bg-gray-900/70 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20"
         >
             <div className="relative overflow-hidden">
