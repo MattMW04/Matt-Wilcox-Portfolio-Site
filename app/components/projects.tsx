@@ -2,6 +2,7 @@
 import ScrollReveal from './scroll-reveal';
 import Project from './projects/project';
 import TimetablingProject from './projects/timetabling-project';
+import EducationProject from './projects/education-webapp-project';
 
 export default function ProjectsSection() {
     return (
@@ -15,16 +16,13 @@ export default function ProjectsSection() {
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <TimetablingProject />
+                        <EducationProject />
                         <Project
                             key={1}
                             projectNumber={1}
                             projectName="Project 1"
                         />
-                        <Project
-                            key={2}
-                            projectNumber={2}
-                            projectName="Project 2"
-                        />
+
 
 
                     </div>
