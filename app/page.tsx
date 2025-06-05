@@ -1,8 +1,4 @@
-import { Github, Linkedin, Mail, ExternalLink, Code, Palette, Smartphone } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import Image from "next/image"
-import ScrollReveal from "./components/scroll-reveal"
+
 import Header from "./components/header"
 import HeroSection from "./components/hero-section"
 
