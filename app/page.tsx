@@ -30,10 +30,6 @@ export default function Home() {
       <Header />
       {/* Hero Section */}
       <HeroSection />
-
-
-
-
       {/* Footer */}
       <footer className="bg-slate-900/80 backdrop-blur-sm border-t border-slate-700 text-white py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
