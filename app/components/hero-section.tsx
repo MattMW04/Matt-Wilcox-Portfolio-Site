@@ -13,7 +13,7 @@ export default function HeroSection() {
                         <div className="mb-8 relative">
                             <div className="absolute inset-0 bg-gradient-to-r from-gray-400 via-cyan-600 to-blue-800 rounded-full blur-lg opacity-30 animate-pulse"></div>
                             <Image
-                                src="/Avatar.png"
+                                src="/avatar.png"
                                 alt="Matt Wilcox Avatar Picture"
                                 width={150}
                                 height={150}
