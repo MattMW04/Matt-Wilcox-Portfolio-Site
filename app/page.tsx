@@ -7,6 +7,7 @@ import Header from "./components/header"
 import HeroSection from "./components/hero-section"
 import AboutMe from "./components/about-me"
 import ContactDetails from "./components/contact"
+import SkillsSection from "./components/skills"
 
 export const metadata = {
   title: "Matt Wilcox's Portfolio | Home",
@@ -48,6 +49,7 @@ export default function Home() {
       <AboutMe />
 
       {/* Skills Section */}
+      <SkillsSection />
 
       {/* Projects Section */}
 
