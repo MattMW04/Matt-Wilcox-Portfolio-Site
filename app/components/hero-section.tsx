@@ -27,7 +27,7 @@ export default function HeroSection() {
                             </span>
                         </h1>
                         <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                            Graduate Software Engineer with a passion for solving problems and creating innovative software solutions. Interest include Web Development and following the latest AI technologies/advancements.
+                            Graduate Software Engineer with a passion for solving problems and creating innovative software solutions. Interests include Web Development and following the latest AI technologies/advancements.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                             <a href="/MatthewWilcoxResume.pdf" target="_blank" rel="noopener noreferrer" download>

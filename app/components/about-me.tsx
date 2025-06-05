@@ -9,7 +9,7 @@ export default function AboutMe() {
                         <h2 className="text-3xl sm:text-4xl font-bold text-gray-100 mb-4">About Me</h2>
                         <div className="w-24 h-1 bg-gradient-to-r from-gray-400 to-gray-200 mx-auto mb-6"></div>
                         <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-                            I&apos;m a passionate developer, recently graduated with a degree in Software Engineering from Solent University. I specialize in creating dynamic and responsive web applications, with a keen interest in the latest technologies and trends in the industry.
+                            I&apos;m a passionate developer, recently graduated with a degree in Software Engineering from Solent University. I specialize in creating dynamic and responsive web applications, with a keen interest in the latest technologies and trends in the industry. I have prior experience in full stack development, along with a strong foundation in collaborative development using Agile Methodologies.
                         </p>
                     </div>
                     <div className="grid md:grid-cols-2 gap-12 items-center">
