@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { geistSans, geistMono } from "./styles/fonts"; // Import fonts
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/next';
+import Header from "./components/header";
 
 export const metadata: Metadata = {
   title: "Matt Wilcox's Portfolio",
@@ -33,7 +34,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         id="root"
       >
-        {children}
+        <main className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
+          <Header />
+          {children}
+        </main>
+
       </body>
     </html>
   );

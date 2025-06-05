@@ -3,7 +3,7 @@
 //import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 //import Image from "next/image"
 //import ScrollReveal from "./components/scroll-reveal"
-import Header from "./components/header"
+
 import HeroSection from "./components/hero-section"
 import AboutMe from "./components/about-me"
 import ContactDetails from "./components/contact"
@@ -41,9 +41,7 @@ export const metadata = {
 };
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
-      {/* Navigation */}
-      <Header />
+    <>
       {/* Hero Section */}
       <HeroSection />
       {/* About Section */}
@@ -65,6 +63,7 @@ export default function Home() {
           <p className="text-gray-400">© 2024 John Doe. Built with Next.js and Tailwind CSS.</p>
         </div>
       </footer>
-    </div>
+    </>
+
   );
 }
