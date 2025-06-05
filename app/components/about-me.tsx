@@ -18,7 +18,7 @@ export default function AboutMe() {
                                 With Knowledge in both front-end and back-end development, along with understanding of the Software lifecycle, I enjoy tackling complex challenges and delivering high-quality solutions. My experience includes working with technologies such as React, Node.js, and various databases, allowing me to build robust applications that meet user needs.
                             </p>
                             <p className="text-gray-300 leading-relaxed">
-                                When I&apos;m not coding, you can find me exploring new technologies and advancements in the industry,
+                                When I&apos;m not coding, you can find me exploring new technologies and advancements in the industry.
                             </p>
                             <div className="flex flex-wrap gap-3">
                                 <span className="px-4 py-2 bg-gradient-to-r from-blue-600/20 to-blue-500/20 border border-blue-500/30 text-blue-300 rounded-full text-sm hover:scale-105 transition-transform duration-300">
