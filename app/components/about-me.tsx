@@ -33,7 +33,7 @@ export default function AboutMe() {
                             </div>
                         </div>
                         <div className="relative group">
-                            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg blur-lg opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
+                            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur-lg opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
                             <Image
                                 src="/AvatarCoding.png"
                                 alt="About me image- Avatar of Matt Wilcox coding"
