@@ -25,6 +25,12 @@ export const metadata = {
     "JavaScript",
     "TypeScript",
   ],
+  authors: [{ name: "Matt Wilcox", }],
+  creator: "Matt Wilcox",
+  icons: {
+    icon: "/favicon.ico",
+  },
+
   openGraph: {
     title: "Matt Wilcox's Portfolio",
     description: "Showcasing projects, blog posts, and more.",
