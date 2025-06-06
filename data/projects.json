@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Timetabling Project",
+    "description": "A web application for managing and optimizing timetables, built with React, Node.js and MySQL. Developed to streamline scheduling processes and improve efficiency in educational institutions. Collaborative project using Agile methodologies and modern web technologies in line with project sponsors requirements.",
+    "technologies": [
+      "React",
+      "Node.js",
+      "MySQL",
+      "Next.js",
+      "Typescript",
+      "Tailwind",
+      "GitHub",
+      "AutoCannon"
+    ],
+    "image": "/TimetablingProject.png",
+    "link": "/projects/Timetabling-Project",
+    "github": ""
+  },
+  {
+    "name": "Dissertation- Responsive Education WebApp",
+    "description": "A web application for managing and optimizing timetables, built with React, Node.js and MySQL. Developed to streamline scheduling processes and improve efficiency in educational institutions. Collaborative project using Agile methodologies and modern web technologies in line with project sponsors requirements.",
+    "technologies": [
+      "React",
+      "Node.js",
+      "MySQL",
+      "Next.js",
+      "Typescript",
+      "Tailwind",
+      "GitHub",
+      "AutoCannon"
+    ],
+    "image": "/EducationWebapp.png",
+    "link": "/projects/Education-WebApp",
+    "github": "https://github.com/MattMW04/EducationSite"
+  }
+]
