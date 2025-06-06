@@ -1,7 +1,11 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Smartphone } from "lucide-react";
 
-export default function OtherTools() {
+interface OtherToolsProps {
+    tools: string[];
+}
+
+export default function OtherTools({ tools }: OtherToolsProps) {
     return (
         <Card className="bg-gray-900/50 border-gray-700 backdrop-blur-sm hover:bg-gray-900/70 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-500/10">
             <CardHeader>
@@ -15,33 +19,14 @@ export default function OtherTools() {
             </CardHeader>
             <CardContent>
                 <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Git
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Github
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Vercel
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Agile
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Testing
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Debugging
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Prettier
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        ESLint
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        JSON
-                    </span>
+                    {tools.map((tool) => (
+                        <span
+                            key={tool}
+                            className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300"
+                        >
+                            {tool}
+                        </span>
+                    ))}
                 </div>
             </CardContent>
         </Card>

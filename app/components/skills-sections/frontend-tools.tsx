@@ -1,6 +1,11 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Code } from "lucide-react";
-export default function FrontendTools() {
+
+interface FrontendToolsProps {
+    tools: string[];
+}
+
+export default function FrontendTools({ tools }: FrontendToolsProps) {
     return (
         <Card className="bg-gray-900/50 border-gray-700 backdrop-blur-sm hover:bg-gray-900/70 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-gray-500/10">
             <CardHeader>
@@ -14,31 +19,14 @@ export default function FrontendTools() {
             </CardHeader>
             <CardContent>
                 <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        React
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Next.js
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        TypeScript
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        JavaScript
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Tailwind CSS
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Webpack
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        ShadCN/UI
-                    </span>
-                    <span className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300">
-                        Fetch API
-                    </span>
-
+                    {tools.map((tool) => (
+                        <span
+                            key={tool}
+                            className="px-3 py-1 bg-gray-800/50 border border-gray-600 text-gray-300 rounded-md text-sm hover:bg-gray-700/50 transition-colors duration-300"
+                        >
+                            {tool}
+                        </span>
+                    ))}
                 </div>
             </CardContent>
         </Card>

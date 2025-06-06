@@ -1,0 +1,39 @@
+{
+  "frontend": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "Tailwind CSS",
+    "ShadCN",
+    "CSS",
+    "Webpack",
+    "HTML",
+    "Fetch API"
+  ],
+  "backend": [
+    "Node.js",
+    "Express.js",
+    "Python",
+    "Java",
+    "Kotlin",
+    "MySQL",
+    "SQLite",
+    "MongoDB",
+    "REST APIs",
+    "JWT"
+  ],
+  "tools": [
+    "Git",
+    "Github",
+    "Vercel",
+    "Agile",
+    "Testing",
+    "Debugging",
+    "Prettier",
+    "ESLint",
+    "JSON",
+    "CSV",
+    "Rester- API Tesing"
+  ]
+}
