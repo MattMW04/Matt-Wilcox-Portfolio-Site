@@ -9,15 +9,20 @@ export default function ProjectsSection() {
     const [visibleCount, setVisibleCount] = useState(3);
 
     const handleViewMore = () => {
-        setVisibleCount((prev) => Math.min(prev + 3, projects.length));
+        setVisibleCount((prev) => Math.min(prev + 3, projects.length)); // Increment by 3, but not exceed total projects
     };
 
     const handleViewLess = () => {
-        setVisibleCount(3);
+        setVisibleCount(3); // Reset to initial count
+        // Scroll to the projects section
+        const el = document.getElementById('projects');
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
     };
 
-    const canViewMore = visibleCount < projects.length;
-    const canViewLess = visibleCount > 3;
+    const canViewMore = visibleCount < projects.length; // Check if there are more projects to show
+    const canViewLess = visibleCount > 3; // Check if there are more than the initial 3 projects shown
 
     return (
         <ScrollReveal>
