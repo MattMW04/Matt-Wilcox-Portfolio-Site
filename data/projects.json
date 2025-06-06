@@ -48,5 +48,19 @@
     "image": "/TimetablingProject.png",
     "link": "/projects/Mobile-App-Development",
     "github": "https://github.com/MattMW04/Com527_Assessment"
+  },
+  {
+    "name": "Portfolio Site",
+    "description": "A personal portfolio website showcasing my projects, skills, and experiences. Built with Next.js, TypeScript, and Tailwind CSS, this site is designed to be responsive and user-friendly.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React",
+      "GitHub"
+    ],
+    "image": "/PortfolioSite.png",
+    "link": "/projects/Portfolio-Site",
+    "github": "https://github.com/MattMW04/Matt-Wilcox-Portfolio-Site"
   }
 ]

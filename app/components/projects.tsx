@@ -12,7 +12,12 @@ export default function ProjectsSection() {
         setVisibleCount((prev) => Math.min(prev + 3, projects.length));
     };
 
+    const handleViewLess = () => {
+        setVisibleCount(3);
+    };
+
     const canViewMore = visibleCount < projects.length;
+    const canViewLess = visibleCount > 3;
 
     return (
         <ScrollReveal>
@@ -31,18 +36,28 @@ export default function ProjectsSection() {
                             />
                         ))}
                     </div>
-                    {canViewMore && (
+                    {(canViewMore || canViewLess) && (
                         <div className="flex justify-center mt-10">
-                            <button
-                                onClick={handleViewMore}
-                                className="px-6 py-2 rounded bg-blue-700 text-white font-semibold hover:bg-blue-800 transition"
-                            >
-                                View More
-                            </button>
+                            {canViewMore && (
+                                <button
+                                    onClick={handleViewMore}
+                                    className="px-6 py-2 rounded bg-blue-700 text-white font-semibold hover:bg-blue-800 transition"
+                                >
+                                    View More
+                                </button>
+                            )}
+                            {canViewLess && (
+                                <button
+                                    onClick={handleViewLess}
+                                    className="px-6 py-2 rounded bg-gray-700 text-white font-semibold hover:bg-gray-800 transition ml-4"
+                                >
+                                    View Less
+                                </button>
+                            )}
                         </div>
                     )}
                 </div>
             </section>
-        </ScrollReveal>
+        </ScrollReveal >
     );
 }
