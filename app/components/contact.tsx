@@ -44,11 +44,12 @@ export default function ContactDetails() {
                     </div>
 
                     <Button
+                        disabled
                         size="lg"
                         className="bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-gray-500/25"
                     >
                         <Mail className="mr-2 h-4 w-4" />
-                        Get In Touch
+                        Get In Touch (Coming Soon)
                     </Button>
 
                 </div>
