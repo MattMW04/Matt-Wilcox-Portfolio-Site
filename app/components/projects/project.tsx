@@ -55,12 +55,13 @@ export default function Project({ project }: ProjectProps) {
                                 <Tooltip>
                                     <TooltipTrigger asChild>
                                         <Button
+                                            aria-label="Go to project GitHub repository"
                                             asChild
                                             variant="outline"
                                             size="sm"
                                             className="border-gray-600 text-gray-300 hover:bg-gray-700 hover:text-gray-400 hover:border-gray-400 transition-all duration-300"
                                         >
-                                            <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                            <a href={project.github} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.name}  on GitHub`}>
                                                 <Github className="h-4 w-4" />
                                             </a>
                                         </Button>
@@ -74,12 +75,13 @@ export default function Project({ project }: ProjectProps) {
                                 <Tooltip>
                                     <TooltipTrigger asChild>
                                         <Button
+                                            aria-label="View more information about the project"
                                             asChild
                                             variant="outline"
                                             size="sm"
                                             className="border-gray-600 text-gray-300 hover:bg-gray-700 hover:text-gray-400 hover:border-gray-400 transition-all duration-300"
                                         >
-                                            <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                            <a href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`View more information about ${project.name}`}>
                                                 <ExternalLink className="h-4 w-4" />
                                             </a>
                                         </Button>

@@ -40,8 +40,9 @@ export default function HeroSection() {
                                 </Button>
                             </a>
                             <div className="flex space-x-4">
-                                <Link href="https://github.com/MattMW04" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://github.com/MattMW04" target="_blank" rel="noopener noreferrer" aria-label="Click to go to my GitHub Profile">
                                     <Button
+                                        aria-label="Go to my GitHub Profile"
                                         variant="outline"
                                         size="icon"
                                         className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:text-gray-100 hover:border-gray-400 transition-all duration-300"
@@ -49,8 +50,9 @@ export default function HeroSection() {
                                         <Github className="h-4 w-4" />
                                     </Button>
                                 </Link>
-                                <Link href="https://www.linkedin.com/in/matt-wilcox-73106a2ab/" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://www.linkedin.com/in/matt-wilcox-73106a2ab/" target="_blank" rel="noopener noreferrer" aria-label="Click to go to my LinkedIn Profile">
                                     <Button
+                                        aria-label="Go to my LinkedIn Profile"
                                         variant="outline"
                                         size="icon"
                                         className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:text-gray-100 hover:border-gray-400 transition-all duration-300"
@@ -58,8 +60,9 @@ export default function HeroSection() {
                                         <Linkedin className="h-4 w-4" />
                                     </Button>
                                 </Link>
-                                <a href="mailto:matt.wilcox24@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <a href="mailto:matt.wilcox24@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Click to email me">
                                     <Button
+                                        aria-label="Email me"
                                         variant="outline"
                                         size="icon"
                                         className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:text-gray-100 hover:border-gray-400 transition-all duration-300"
