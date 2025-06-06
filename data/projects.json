@@ -62,5 +62,53 @@
     "image": "/PortfolioSite.png",
     "link": "/projects/Portfolio-Site",
     "github": "https://github.com/MattMW04/Matt-Wilcox-Portfolio-Site"
+  },
+  {
+    "name": "Diabetes Dataset- Data Science Workflow",
+    "description": "A comprehensive data science project analyzing a diabetes dataset to extract insights and build predictive models. The project includes data cleaning, exploratory data analysis, model training, and evaluation using Python libraries such as Pandas, NumPy, Scikit-learn, and Matplotlib.",
+    "technologies": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Random Forest Classifier",
+      "GitHub"
+    ],
+    "image": "/DataScience.png",
+    "link": "/projects/Diabetes-Data-Science",
+    "github": "https://github.com/MattMW04/Data-Science-Assessment"
+  },
+  {
+    "name": "Personal Finance App",
+    "description": "A personal finance application designed to help users manage their finances effectively. The app allows users to track expenses, Adjust Savings goals , and visualize their financial data through interactive charts and graphs.",
+    "technologies": [
+      "Python",
+      "Dash",
+      "Plotly",
+      "K-Means Clustering",
+      "Pandas",
+      "Time-Series Analysis",
+      "GitHub"
+    ],
+    "image": "/PersonalFinance.png",
+    "link": "/projects/Personal-Finance-App",
+    "github": "https://github.com/MattMW04/COM624_Assessment"
+  },
+  {
+    "name": "Places To Stay - Accommodation Search/ Booking WebApp",
+    "description": "Full stack web application for searching and booking accommodation. The App features accommodation listings, search functionality, Map Integration using Leaflet, User authentication and Booking Functionality. Built with React, Node.js, and SQLite.",
+    "technologies": [
+      "React",
+      "Node.js",
+      "SQLite",
+      "Webpack",
+      "Babel",
+      "Leaflet",
+      "Javascript",
+      "CSS",
+      "GitHub"
+    ],
+    "image": "/PlacesToStay.png",
+    "link": "/projects/Places-To-Stay",
+    "github": "https://github.com/MattMW04/COM518_Assessment"
   }
 ]
