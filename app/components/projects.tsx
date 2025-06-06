@@ -1,10 +1,10 @@
-
 import ScrollReveal from './scroll-reveal';
 import Project from './projects/project';
-import TimetablingProject from './projects/timetabling-project';
-import EducationProject from './projects/education-webapp-project';
+import { getProjects } from '@/data-access/projects-access';
 
 export default function ProjectsSection() {
+    const projects = getProjects();
+
     return (
         <ScrollReveal>
             <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50 backdrop-blur-sm">
@@ -15,20 +15,15 @@ export default function ProjectsSection() {
                         <p className="text-lg text-gray-300">Some of my recent work that I&apos;m proud of</p>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <TimetablingProject />
-                        <EducationProject />
-                        <Project
-                            key={1}
-                            projectNumber={1}
-                            projectName="Project 1"
-                        />
-
-
-
+                        {projects.map((project) => (
+                            <Project
+                                key={project.name}
+                                project={project}
+                            />
+                        ))}
                     </div>
                 </div>
             </section>
         </ScrollReveal>
-
     );
-}   
+}

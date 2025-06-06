@@ -22,12 +22,11 @@
     "technologies": [
       "React",
       "Node.js",
-      "MySQL",
+      "MongoDB",
       "Next.js",
       "Typescript",
       "Tailwind",
-      "GitHub",
-      "AutoCannon"
+      "GitHub"
     ],
     "image": "/EducationWebapp.png",
     "link": "/projects/Education-WebApp",
