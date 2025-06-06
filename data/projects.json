@@ -31,5 +31,22 @@
     "image": "/EducationWebapp.png",
     "link": "/projects/Education-WebApp",
     "github": "https://github.com/MattMW04/EducationSite"
+  },
+  {
+    "name": "Mobile Application Development (Kotlin) - POI Manager",
+    "description": "Kotlin Mobile Application for managing Points of Interest (POI) with features like adding, editing, and deleting POIs. The app uses a local SQLite database for data storage and implements a user-friendly interface for easy navigation.",
+    "technologies": [
+      "Kotlin",
+      "Android Studio",
+      "SQLite",
+      "Jetpack Compose",
+      "Room",
+      "View Model",
+      "Coroutines",
+      "GitHub"
+    ],
+    "image": "/TimetablingProject.png",
+    "link": "/projects/Mobile-App-Development",
+    "github": "https://github.com/MattMW04/Com527_Assessment"
   }
 ]
