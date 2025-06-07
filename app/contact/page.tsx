@@ -6,6 +6,7 @@ import SuccessMessage from "../components/SuccessMessage";
 import ErrorMessage from "../components/ErrorMessage";
 import { sendEmail } from "@/lib/sendEmail";
 import SpinnerOverlay from "../components/SpinnerOverlay";
+import { Mail, Loader2 } from "lucide-react";
 
 //export const metadata = {
 //title: "Contact | Matt Wilcox's Portfolio",
@@ -117,6 +118,7 @@ export default function ContactPage() {
                             disabled={loading}
                             className="w-full bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-gray-500/25"
                         >
+                            {loading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Mail className="mr-2 h-4 w-4" />}
                             {loading ? "Sending..." : "Send Message"}
                         </Button>
                     </form>
