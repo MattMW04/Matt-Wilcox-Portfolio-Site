@@ -78,7 +78,7 @@ export async function POST(req: NextRequest) {
 
         // Build message
         const message = {
-            from: 'Matthew Wilcox Portfolio <>', // TODO: verify domain and place here within <> tags
+            from: 'Matthew Wilcox Portfolio <noreply@matt-wilcox.live>',
             to: 'matt.wilcox24@gmail.com',
             subject: `New message from ${name}: ${subject}`,
             html: `
