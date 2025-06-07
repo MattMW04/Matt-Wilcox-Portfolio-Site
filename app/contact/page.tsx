@@ -2,9 +2,10 @@
 import ScrollReveal from "../components/scroll-reveal";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
-import SuccessMessage from "./SuccessMessage";
-import ErrorMessage from "./ErrorMessage";
+import SuccessMessage from "../components/SuccessMessage";
+import ErrorMessage from "../components/ErrorMessage";
 import { sendEmail } from "@/lib/sendEmail";
+import SpinnerOverlay from "../components/SpinnerOverlay";
 
 //export const metadata = {
 //title: "Contact | Matt Wilcox's Portfolio",
@@ -44,7 +45,7 @@ export default function ContactPage() {
     return (
         <ScrollReveal>
             <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center justify-center">
-                <div className="max-w-xl w-full bg-gray-900/50 border border-gray-700 rounded-xl shadow-2xl p-8 mx-auto">
+                <div className="max-w-xl w-full bg-gray-900/50 border border-gray-700 rounded-xl shadow-2xl p-8 mx-auto relative">
                     <h1 className="text-4xl font-bold text-gray-100 mb-6 text-center">Contact Me</h1>
                     {successMsg && <SuccessMessage message={successMsg} />}
                     {errorMsg && <ErrorMessage error={errorMsg} />}
@@ -119,6 +120,7 @@ export default function ContactPage() {
                             {loading ? "Sending..." : "Send Message"}
                         </Button>
                     </form>
+                    {loading && <SpinnerOverlay />}
                 </div>
             </section>
         </ScrollReveal>

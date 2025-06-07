@@ -1,5 +1,5 @@
+import Link from "next/link";
 export default function Header() {
-
     return (
         <nav className="fixed top-0 w-full bg-black/90 backdrop-blur-md z-50 border-b border-gray-800" aria-label="Main Navigation">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,9 +34,16 @@ export default function Header() {
                             href="#contact"
                             className="text-gray-100 hover:text-blue-300 transition-colors duration-300 relative group"
                         >
-                            Contact
+                            Details
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
                         </a>
+                        <Link
+                            href="/contact"
+                            className="text-gray-100 hover:text-blue-300 transition-colors duration-300 relative group"
+                        >
+                            Contact
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
+                        </Link>
                     </div>
                 </div>
             </div>
