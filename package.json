@@ -12,7 +12,7 @@
     "lint": "next lint",
     "kill-node": "cmd \"/C TASKKILL /IM node.exe /F\"",
     "generate-3rd-party-md": "npx license-checker --json > licenses.json && node ./scripts/generate-3rd-party-license-report.js",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
