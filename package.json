@@ -11,7 +11,8 @@
     "start": "next start",
     "lint": "next lint",
     "kill-node": "cmd \"/C TASKKILL /IM node.exe /F\"",
-    "generate-3rd-party-md": "npx license-checker --json > licenses.json && node ./scripts/generate-3rd-party-license-report.js"
+    "generate-3rd-party-md": "npx license-checker --json > licenses.json && node ./scripts/generate-3rd-party-license-report.js",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
@@ -25,6 +26,7 @@
     "fs": "^0.0.1-security",
     "lucide-react": "^0.475.0",
     "next": "^15.2.4",
+    "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-toastify": "^11.0.5",
