@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { geistSans, geistMono } from "../styles/fonts";
+
 import "../globals.css";
 import { Analytics } from '@vercel/analytics/next';
 import ContactHeader from "../components/contact-page-header";
@@ -28,16 +28,11 @@ export default function ContactLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <>
             <Analytics />
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-br from-black via-gray-900 to-black`}
-                id="root"
-            >
-                <ContactHeader />
-                {children}
-            </body>
 
-        </html>
+            <ContactHeader />
+            {children}
+        </>
     );
 }
