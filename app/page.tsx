@@ -47,7 +47,7 @@ export const metadata = {
 };
 export default function Home() {
   return (
-    <>
+    <main className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
       {/* Hero Section */}
       <HeroSection />
       {/* About Section */}
@@ -61,8 +61,7 @@ export default function Home() {
 
       {/* Contact Section */}
       <ContactDetails />
-
-    </>
+    </main>
 
   );
 }

@@ -31,14 +31,11 @@ export default function ContactLayout({
         <html lang="en">
             <Analytics />
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-br from-black via-gray-900 to-black`}
                 id="root"
             >
-                <main className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
-                    <ContactHeader />
-                    {children}
-
-                </main>
+                <ContactHeader />
+                {children}
             </body>
 
         </html>
