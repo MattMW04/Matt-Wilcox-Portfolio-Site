@@ -31,6 +31,9 @@ This portfolio site presents a curated selection of my software engineering work
 - **Responsive & Animated UI:**  
   The site is fully responsive and features smooth scroll-reveal animations for an engaging user experience.
 
+- **Rate Limiting & Email Integration:**  
+  Contact form submissions are protected with Redis Upstash-based rate limiting, and emails are sent using the Resend email API.
+
 ## Tech Stack
 
 - [Next.js](https://nextjs.org/)
@@ -40,11 +43,14 @@ This portfolio site presents a curated selection of my software engineering work
 - [ShadCN UI](https://ui.shadcn.com/)
 - [Lucide Icons](https://lucide.dev/)
 - [Vercel](https://vercel.com/) (deployment)
+- [Redis Upstash](https://upstash.com/) (rate limiting)
+- [Resend](https://resend.com/) (email integration)
 
 ## Access the Live Site
 
 You can view the deployed portfolio at:  
 **[https://matt-wilcox-portfolio.vercel.app/](https://matt-wilcox-portfolio.vercel.app/)**
+**[https://www.matt-wilcox.live/](https://www.matt-wilcox.live/)** 
 
 ---
 
