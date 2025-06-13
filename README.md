@@ -9,6 +9,8 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS, desi
 ![ShadCN UI](https://img.shields.io/badge/ShadCN%20UI-111827?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgM2M0LjA4IDAgNyA0LjA4IDcgN3MtMi45MiA3LTcgNy03LTQuMDgtNy03IDIuOTItNyA3LTd6Ii8+PC9zdmc+)
 ![Lucide Icons](https://img.shields.io/badge/Lucide-000000?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTEyIDIgTDEyIDIyIi8+PHBhdGggZD0iTTIgMTIgTDIyIDEyIi8+PC9zdmc+)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+![Redis Upstash](https://img.shields.io/badge/Upstash%20Redis-00DC82?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDBEQzgyIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgM2M0LjA4IDAgNyA0LjA4IDcgN3MtMi45MiA3LTcgNy03LTQuMDgtNy03IDIuOTItNyA3LTd6Ii8+PC9zdmc+)
+![Resend](https://img.shields.io/badge/Resend-FF6B00?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkY2QjAwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgM2M0LjA4IDAgNyA0LjA4IDcgN3MtMi45MiA3LTcgNy03LTQuMDgtNy03IDIuOTItNyA3LTd6Ii8+PC9zdmc+)
 
 ## Overview
 
