@@ -13,7 +13,7 @@ import ProjectsSection from "./components/projects"
 export const metadata = {
   title: "Matt Wilcox's Portfolio | Home",
   description: "Showcasing projects, Skills, and more.",
-  url: "https://matt-wilcox-portfolio.vercel.app/",
+  url: "https://www.matt-wilcox.live",
   keywords: [
     "Matt Wilcox",
     "Portfolio",
@@ -34,7 +34,7 @@ export const metadata = {
   openGraph: {
     title: "Matt Wilcox's Portfolio",
     description: "Showcasing projects, Skills, and more.",
-    url: "https://matt-wilcox-portfolio.vercel.app/",
+    url: "https://www.matt-wilcox.live",
     siteName: "Matt Wilcox's Portfolio",
     locale: "en_UK",
     type: "website",

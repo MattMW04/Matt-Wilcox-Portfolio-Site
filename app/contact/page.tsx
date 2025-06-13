@@ -3,7 +3,7 @@ import ContactForm from "../components/contact-form";
 export const metadata = {
     title: "Contact | Matt Wilcox's Portfolio",
     description: "Contact Matt Wilcox via the form.",
-    url: "https://matt-wilcox-portfolio.vercel.app/contact",
+    url: "https://www.matt-wilcox.live/contact",
     keywords: [
         "Matt Wilcox",
         "Contact",
@@ -24,7 +24,7 @@ export const metadata = {
     openGraph: {
         title: "Contact | Matt Wilcox's Portfolio",
         description: "Contact Matt Wilcox via the form.",
-        url: "https://matt-wilcox-portfolio.vercel.app/contact",
+        url: "https://www.matt-wilcox.live/contact",
         siteName: "Matt Wilcox's Portfolio",
         locale: "en_UK",
         type: "website",
