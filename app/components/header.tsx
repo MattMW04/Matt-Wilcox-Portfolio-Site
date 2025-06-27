@@ -137,6 +137,13 @@ export default function Header() {
                         >
                             Contact Me
                         </Link>
+                        <Link
+                            href="/meet"
+                            className="text-gray-100 hover:text-blue-300 transition-colors duration-300"
+                            onClick={() => setSidebarOpen(false)}
+                        >
+                            Meet
+                        </Link>
                     </nav>
                 </div>
             </div>
