@@ -6,7 +6,7 @@ const MeetCalendar: React.FC = () => {
     return (
         <div className="w-full flex flex-col items-center">
             <h1 className="text-4xl font-bold text-gray-100 mb-6 text-center w-full">Schedule a Meeting</h1>
-            <div className="w-full">
+            <div className="w-full h-[1000px] overflow-hidden p-6">
                 <InlineWidget
                     url="https://calendly.com/matt-wilcox24/30min?month=2025-06"
                     pageSettings={{
@@ -17,7 +17,8 @@ const MeetCalendar: React.FC = () => {
                         textColor: '#000000',
                     }}
                     iframeTitle="Schedule a meeting with Matt Wilcox"
-                    styles={{ minHeight: '600px', width: '100%' }}
+                    styles={{ minHeight: '100%', width: '100%', overflow: 'hidden' }}
+
                 />
             </div>
         </div>
