@@ -50,6 +50,13 @@ export default function Header() {
                             Contact Me
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
                         </Link>
+                        <Link
+                            href="/meet"
+                            className="text-gray-100 hover:text-blue-300 transition-colors duration-300 relative group"
+                        >
+                            Meet
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
+                        </Link>
                     </div>
 
                     {/* Hamburger Button for Mobile */}
