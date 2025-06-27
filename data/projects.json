@@ -13,12 +13,12 @@
       "AutoCannon"
     ],
     "image": "/TimetablingProject.png",
-    "link": "/projects/Timetabling-Project",
+    "link": "",
     "github": ""
   },
   {
     "name": "Dissertation- Responsive Education WebApp",
-    "description": "A web application for managing and optimizing timetables, built with React, Node.js and MySQL. Developed to streamline scheduling processes and improve efficiency in educational institutions. Collaborative project using Agile methodologies and modern web technologies in line with project sponsors requirements.",
+    "description": "A responsive education web application developed as part of a dissertation project, focusing on enhancing educational experiences through user-generated content such as courses and quizzes and adaptive design. Built with React, Node.js, and MongoDB, the app aims to enhance learning effectiveness and accessibility. Deployed to Vercel for easy access and scalability.",
     "technologies": [
       "React",
       "Node.js",
@@ -29,7 +29,7 @@
       "GitHub"
     ],
     "image": "/EducationWebapp.png",
-    "link": "/projects/Education-WebApp",
+    "link": "",
     "github": "https://github.com/MattMW04/EducationSite"
   },
   {
@@ -46,7 +46,7 @@
       "GitHub"
     ],
     "image": "/MobileAppDevelopment.png",
-    "link": "/projects/Mobile-App-Development",
+    "link": "",
     "github": "https://github.com/MattMW04/Com527_Assessment"
   },
   {
@@ -60,7 +60,7 @@
       "GitHub"
     ],
     "image": "/PortfolioSite.png",
-    "link": "/projects/Portfolio-Site",
+    "link": "",
     "github": "https://github.com/MattMW04/Matt-Wilcox-Portfolio-Site"
   },
   {
@@ -74,7 +74,7 @@
       "GitHub"
     ],
     "image": "/DataScience.png",
-    "link": "/projects/Diabetes-Data-Science",
+    "link": "",
     "github": "https://github.com/MattMW04/Data-Science-Assessment"
   },
   {
@@ -90,7 +90,7 @@
       "GitHub"
     ],
     "image": "/PersonalFinance.png",
-    "link": "/projects/Personal-Finance-App",
+    "link": "",
     "github": "https://github.com/MattMW04/COM624_Assessment"
   },
   {
@@ -108,7 +108,7 @@
       "GitHub"
     ],
     "image": "/PlacesToStay.png",
-    "link": "/projects/Places-To-Stay",
+    "link": "",
     "github": "https://github.com/MattMW04/COM518_Assessment"
   }
 ]
