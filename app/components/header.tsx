@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
@@ -43,20 +42,7 @@ export default function Header() {
                             Details
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
                         </a>
-                        <Link
-                            href="/contact"
-                            className="text-gray-100 hover:text-blue-300 transition-colors duration-300 relative group"
-                        >
-                            Contact Me
-                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
-                        </Link>
-                        <Link
-                            href="/meet"
-                            className="text-gray-100 hover:text-blue-300 transition-colors duration-300 relative group"
-                        >
-                            Meet
-                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
-                        </Link>
+
                     </div>
 
                     {/* Hamburger Button for Mobile */}
@@ -130,20 +116,6 @@ export default function Header() {
                         >
                             Details
                         </a>
-                        <Link
-                            href="/contact"
-                            className="text-gray-100 hover:text-blue-300 transition-colors duration-300"
-                            onClick={() => setSidebarOpen(false)}
-                        >
-                            Contact Me
-                        </Link>
-                        <Link
-                            href="/meet"
-                            className="text-gray-100 hover:text-blue-300 transition-colors duration-300"
-                            onClick={() => setSidebarOpen(false)}
-                        >
-                            Meet
-                        </Link>
                     </nav>
                 </div>
             </div>
