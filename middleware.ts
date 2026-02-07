@@ -9,6 +9,11 @@ export function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
+  // Allow public files (anything with a file extension)
+  if (pathname.includes('.')) {
+    return NextResponse.next()
+  }
+
   // Redirect everything else to /
   return NextResponse.redirect(new URL('/', request.url))
 }
