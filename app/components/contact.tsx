@@ -1,7 +1,7 @@
 import ScrollReveal from "./scroll-reveal"
 import { Mail, Linkedin, Github } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
+// import { Button } from "@/components/ui/button";
 export default function ContactDetails() {
     return (
         <ScrollReveal>
@@ -40,17 +40,19 @@ export default function ContactDetails() {
                                 </div>
                             </Link>
                         </div>
-
                     </div>
-                    <Link href="/contact" className="inline-block">
-                        <Button
-                            size="lg"
-                            className="bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-gray-500/25"
-                        >
-                            <Mail className="mr-2 h-4 w-4" />
-                            Get In Touch
-                        </Button>
-                    </Link>
+                    {/*
+                                        <Link href="/contact" className="inline-block ">
+                                            <Button
+                                                size="lg"
+                                                className="bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-gray-500/25"
+                                            >
+                                                <Mail className="mr-2 h-4 w-4" />
+                                                Get In Touch
+                                            </Button>
+                                        </Link>
+                    */}
+
                 </div>
             </section>
         </ScrollReveal>
